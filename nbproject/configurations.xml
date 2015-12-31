@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>App.h</itemPath>
+      <itemPath>Event.h</itemPath>
+      <itemPath>FileManager.h</itemPath>
+      <itemPath>Helper.h</itemPath>
+      <itemPath>Log.h</itemPath>
+      <itemPath>Stringify.h</itemPath>
+      <itemPath>Texture.h</itemPath>
+      <itemPath>TextureBank.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <logicalFolder name="Textures" displayName="Textures" projectFiles="true">
+        <itemPath>Textures/arrow.png</itemPath>
+        <itemPath>Textures/test.bmp</itemPath>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>App.cpp</itemPath>
+      <itemPath>Event.cpp</itemPath>
+      <itemPath>FileManager.cpp</itemPath>
+      <itemPath>Helper.cpp</itemPath>
+      <itemPath>Stringify.cpp</itemPath>
+      <itemPath>Texture.cpp</itemPath>
+      <itemPath>TextureBank.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>Textures</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>SDL2</linkerLibLibItem>
+            <linkerLibLibItem>SDL2_image</linkerLibLibItem>
+            <linkerLibLibItem>SDL2_ttf</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="App.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="App.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Event.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Event.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FileManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FileManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Helper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Helper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Log.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Stringify.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Stringify.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Texture.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Texture.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TextureBank.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TextureBank.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Textures/arrow.png" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Textures/test.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>8</standard>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="App.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="App.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Event.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Event.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FileManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FileManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Helper.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Helper.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Log.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Stringify.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Stringify.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Texture.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Texture.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TextureBank.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TextureBank.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Textures/arrow.png" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Textures/test.bmp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
