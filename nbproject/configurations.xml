@@ -20,6 +20,7 @@
         <itemPath>Textures/arrow.png</itemPath>
         <itemPath>Textures/test.bmp</itemPath>
       </logicalFolder>
+      <itemPath>README</itemPath>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
@@ -86,6 +87,8 @@
       </item>
       <item path="Log.h" ex="false" tool="3" flavor2="0">
       </item>
+      <item path="README" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Stringify.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="Stringify.h" ex="false" tool="3" flavor2="0">
@@ -143,6 +146,8 @@
       <item path="Helper.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Log.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="README" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Stringify.cpp" ex="false" tool="1" flavor2="0">
       </item>

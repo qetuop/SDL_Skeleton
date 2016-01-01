@@ -77,6 +77,7 @@ bool App::Init() {
             mGameController = SDL_GameControllerOpen(i);
             if (mGameController) {
                 cout << "Found Controller" << endl;
+                std::cout << SDL_GameControllerMapping(mGameController) << std::endl;
                 break;
             } else {
                 logSDLError(std::cout, "CApp::OnInit");

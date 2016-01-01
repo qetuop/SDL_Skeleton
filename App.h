@@ -27,7 +27,7 @@ private:
 
     static const int SCREEN_WIDTH = 1024;
     static const int SCREEN_HEIGHT = 768;
-
+    
     //Analog joystick dead zone
     const int JOYSTICK_DEAD_ZONE = 8000;
 
